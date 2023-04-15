@@ -3,7 +3,7 @@
 
 #### Overview
 
-In this paper, we provide a novel method **LRGNN** to capture the long-range dependencies with stacking GNNs in the graph clas- sification task. We justify that the over-smoothing problem has smaller influence on the graph classification task, and then em- ploy the stacking-based GNNs to extract the long-range dependencies. Two design needs, i.e., sufficient model depth and adaptive skip-connections, are provided when designing the stacking-based GNNs. To meet these two design needs, we unify them into inter-layer connections, and then design these connections with the help of NAS. Extensive experiments demonstrate the rationality and effectiveness of the proposed LRGNN. 
+In this paper, we provide a novel method **LRGNN** to capture the long-range dependencies with stacking GNNs in the graph classification task. We justify that the over-smoothing problem has smaller influence on the graph classification task, and then employ the stacking-based GNNs to extract the long-range dependencies. Two design needs, i.e., sufficient model depth and adaptive skip-connections, are provided when designing the stacking-based GNNs. To meet these two design needs, we unify them into inter-layer connections, and then design these connections with the help of NAS. Extensive experiments demonstrate the rationality and effectiveness of the proposed LRGNN. 
 
 #### Requirements
 
@@ -17,7 +17,7 @@ In this paper, we provide a novel method **LRGNN** to capture the long-range dep
 
 # Instructions to run the experiment
 **Step 1.** Run the search process, given different random seeds.
-(The NCI1 dataset operation is used as an example)
+(The NCI1 dataset is used as an example)
 
     (B8C1 Full) python train_search.py --data NCI1   --gpu 0 --num_blocks 8 --cell_mode full --num_cells 1 --agg gcn --cos_temp --BN
 

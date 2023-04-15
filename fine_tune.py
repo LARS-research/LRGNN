@@ -213,7 +213,7 @@ def run_fine_tune():
             logging.info('errror occured for %s-th, arch_info=%s, error=%s', ind+1, l.strip(), e)
             import traceback
             traceback.print_exc()
-    print('finsh tunining {} archs, saved in {}'.format(len(arch_set), 'tuned_res/%s_res_%s_%s.pkl' % (args1.data, tune_str)))
+    # print('finsh tunining {} archs, saved in {}'.format(len(arch_set), 'tuned_res/%s_res_%s_%s.pkl' % (args1.data, tune_str)))
 
 
 if __name__ == '__main__':

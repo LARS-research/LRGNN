@@ -34,7 +34,7 @@ The results are saved in the directory `exp_res`, e.g., `exp_res/nci1.txt`.
 
 
 #### Evaluation
-To reproduce the SOTA performance in Table 2, please use teh following code:
+To reproduce the SOTA performance in Table 2, please use the following code:
 
     python reproduce.py --data NCI1  --gpu 0
 

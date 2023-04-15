@@ -33,8 +33,7 @@ The results are saved in the directory `exp_res`, e.g., `exp_res/nci1.txt`.
     (B8C1 Full) python fine_tune.py --data NCI1 --gpu 0 --num_blocks 8 --num_cells 1 --cell_mode full   --hyper_epoch 20  --arch_filename exp_res/nci1.txt   --cos_lr --BN
 
 
-# Reproduce the results
-
+#### Evaluation
 To reproduce the SOTA performance in Table 2, please use teh following code:
 
     python reproduce.py --data NCI1  --gpu 0
